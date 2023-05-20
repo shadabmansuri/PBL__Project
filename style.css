@@ -1,0 +1,421 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+nav {
+    background-color: #820000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+
+nav a{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.college-photo {
+    height: 80%;
+    width: 100%;
+    background-image: url(assets/College-Photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filter {
+    height: 100%;
+    width: 100%;    
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.name {
+    font-size: 64px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    color: white;
+}
+
+.overview-container {
+    padding: 50px;
+}
+
+.overview-heading {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.overview {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #820000;
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    gap: 75px;
+}
+
+.college-name {
+    font-size: 48px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 50px;
+}
+
+.address h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.address p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 350px;
+}
+
+.contact-info h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info li {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 75px;
+}
+
+.facilities-container {
+    background-color: #F4F4F4;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.facility-card {
+    height: 450px;
+    width: 300px;
+    background-color: #2F2424;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+.facility-img {
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/facility/advanced_programming_lab.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.facility-card:hover {
+    transform: scale(1.05);
+}
+
+.facility-img-2{
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/facility/programming_lab_IT.jpeg);
+}
+
+.facility-img-3{
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/facility/Network_Lab_IT.jpeg);
+}
+
+.facility-img-4{
+    height: 400px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/facility/Project_lab_IT.jpeg);
+}
+
+.facility-img-5 {
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/facility/Database_system_Lab_IT2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.facility-img-6 {
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/facility/Datastructure_Lab_IT.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.facility-img-7 {
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/facility/ISL_lab_IT2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.facility-img-8 {
+    height: 400px;
+    width: 300px;
+    background-image: url(assets/facility/Digital_Electronics_lab_IT.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.facility-name {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.view-more {
+    padding: 10px;
+    background-color: #820000;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.testimonial-container {
+    background-image: url(assets/testimonial/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container-2 {
+    background-image: url(assets/testimonial/background-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container-2 .filter {
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 50px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.testimonial-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 360px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+
+.testimonial-container .overview-heading{
+    color: white;
+}
+
+.testimonial {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.testimonial-container .filter {
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 50px;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.faculty-container {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.faculty-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #2F2424;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    transition: transform .5s ease;
+}
+
+.faculty-card:hover {
+    transform: scale(1.05);
+}
+
+.faculty-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+
+.faculty-card li {
+    list-style: none;
+    color: white;
+}
+
+.activities-container {
+    padding: 50px;
+}
+
+.activity-card {
+    width: 400px;
+    padding: 10px;
+    background-color: #F4F4F4;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: transform .5s ease;
+}
+
+.activity-card h3 {
+    color: #820000;
+    margin: 10px 0px 10px 0px;
+}
+
+.activity-card img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.activity-card:hover {
+    transform: scale(1.05);
+}
+
+.activity-card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+@media (max-width: 1000px) { 
+    nav ul {
+        display: none;
+        visibility: hidden;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #820000;
+    }
+
+    .contact-info li{
+        font-size: 16px;
+    }
+    
+    .address p {
+        font-size: 16px;
+    }
+
+    .activity-card {
+        transform: scale(0.8);
+    }
+
+    .activity-card:hover {
+        transform: scale(0.85);
+    }
+
+    .faculty-card-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .faculty-card {
+        scale: 0.8;
+    }
+
+    .testimonial-img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .testimonial {
+        font-size: 16px;
+    }
+}
